@@ -10,6 +10,8 @@ const handlePerson = async ({ params: { name }, res }) => {
       return name + " is not an asshole"
     } else if(name.toLower() === "josh parnham"){
       return "I don't know what to say"
+    } else if(name.toLower() === "erfan norozi"){
+      return name + " loves Java"
     } else {  
       return name + " is an asshole."
     }
