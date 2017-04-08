@@ -1,0 +1,31 @@
+{
+  "name": "micro-aushol",
+  "version": "0.1.0",
+  "description": "A microservice for getting Australian Holidays",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec 'micro .'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorderikir/micro-aushol.git"
+  },
+  "keywords": [
+    "micro",
+    "microservice",
+    "icons"
+  ],
+  "author": "Eric Jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorderikir/micro-aushol/issues"
+  },
+  "homepage": "https://github.com/lorderikir/micro-aushol/#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-promise": "^2.0.0",
+    "micro": "^7.0.6",
+    "micro-api": "^0.1.1"
+  }
+}
