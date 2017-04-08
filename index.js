@@ -6,11 +6,11 @@ const handleNone = (() => 'You must use a valid request')
 
 const handlePerson = async ({ params: { name }, res }) => {
   try {
-    if(name.toLower() === "eric jiang" ){
+    if(name.toLowerCase() === "eric jiang" ){
       return name + " is not an asshole"
-    } else if(name.toLower() === "josh parnham"){
+    } else if(name.toLowerCase() === "josh parnham"){
       return "I don't know what to say"
-    } else if(name.toLower() === "erfan norozi"){
+    } else if(name.toLowerCase() === "erfan norozi"){
       return name + " loves Java"
     } else {  
       return name + " is an asshole."

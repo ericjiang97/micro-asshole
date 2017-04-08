@@ -2,7 +2,7 @@
 A Random Microservice As Requested by [Josh](https://github.com/josh-)
 
 # Requests
-Base URL: https://micro-aushol-oundejiqei.now.sh
+Base URL: https://micro-aushol-sutzmtyyhm.now.sh
 
 | Request | Description |
 | -------- | ----- |
