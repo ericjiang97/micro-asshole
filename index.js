@@ -6,10 +6,13 @@ const handleNone = (() => 'You must use a valid request')
 
 const handlePerson = async ({ params: { name }, res }) => {
   try {
-    if(name.toLower() === "eric Jiang" ){
+    if(name.toLower() === "eric jiang" ){
       return name + " is not an asshole"
+    } else if(name.toLower() === "josh parnham"){
+      return "I don't know what to say"
+    } else {  
+      return name + " is an asshole."
     }
-    return name + " is an asshole."
   } catch (err) {
     // Autos to 404
     return null
